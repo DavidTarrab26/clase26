@@ -10,7 +10,7 @@ const Colorpicker = () => {
                 <div className="card-body ">
                     <h5 className="card-title">Color Picker</h5>
                     <input type="color" onChange={(e) => setColor(e.target.value)}/>
-                    <input type="text" className='hexa'/>
+                    
                 </div>
             </div>
         </div>
